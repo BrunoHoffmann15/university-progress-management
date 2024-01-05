@@ -1,4 +1,4 @@
-package com.personal.universityprogressmanagement;
+package com.personal.university.progressmanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

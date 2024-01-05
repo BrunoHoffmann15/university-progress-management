@@ -1,6 +1,6 @@
-package com.personal.universityprogressmanagement.domain.semester;
+package com.personal.university.progressmanagement.domain.semester;
 
-import com.personal.universityprogressmanagement.domain.aclass.Class;
+import com.personal.university.progressmanagement.domain.aclass.Class;
 import lombok.Data;
 
 import java.util.Date;

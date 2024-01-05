@@ -1,6 +1,6 @@
-package com.personal.universityprogressmanagement.domain.aclass;
+package com.personal.university.progressmanagement.domain.aclass;
 
-import com.personal.universityprogressmanagement.domain.evaluation.Evaluation;
+import com.personal.university.progressmanagement.domain.evaluation.Evaluation;
 import lombok.Data;
 
 import java.time.DayOfWeek;

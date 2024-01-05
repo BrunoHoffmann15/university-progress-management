@@ -1,4 +1,4 @@
-package com.personal.universityprogressmanagement;
+package com.personal.university.progressmanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

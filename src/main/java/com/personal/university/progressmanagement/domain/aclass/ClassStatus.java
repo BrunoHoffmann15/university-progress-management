@@ -1,4 +1,4 @@
-package com.personal.universityprogressmanagement.domain.aclass;
+package com.personal.university.progressmanagement.domain.aclass;
 
 public enum ClassStatus {
     COMPLETED,
