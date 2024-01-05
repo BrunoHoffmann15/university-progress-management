@@ -1,5 +1,6 @@
-package com.personal.universityprogressmanagement.models;
+package com.personal.universityprogressmanagement.domain.evaluation;
 
+import com.personal.universityprogressmanagement.domain.level.Level;
 import lombok.Data;
 
 import java.math.BigDecimal;

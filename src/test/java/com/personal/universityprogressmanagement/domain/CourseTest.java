@@ -1,6 +1,7 @@
-package com.personal.universityprogressmanagement.models;
+package com.personal.universityprogressmanagement.domain;
 
-import org.assertj.core.api.Assertions;
+import com.personal.universityprogressmanagement.domain.course.Course;
+import com.personal.universityprogressmanagement.domain.subject.Subject;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

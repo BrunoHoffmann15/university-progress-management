@@ -1,5 +1,6 @@
-package com.personal.universityprogressmanagement.models;
+package com.personal.universityprogressmanagement.domain.course;
 
+import com.personal.universityprogressmanagement.domain.subject.Subject;
 import lombok.Data;
 
 import java.util.ArrayList;

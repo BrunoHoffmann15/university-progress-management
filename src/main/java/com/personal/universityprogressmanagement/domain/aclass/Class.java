@@ -1,5 +1,6 @@
-package com.personal.universityprogressmanagement.models;
+package com.personal.universityprogressmanagement.domain.aclass;
 
+import com.personal.universityprogressmanagement.domain.evaluation.Evaluation;
 import lombok.Data;
 
 import java.time.DayOfWeek;
@@ -10,4 +11,5 @@ public class Class {
     private String register;
     private DayOfWeek dayOfWeek;
     private List<Evaluation> evaluationList;
+    private ClassStatus classStatus;
 }
