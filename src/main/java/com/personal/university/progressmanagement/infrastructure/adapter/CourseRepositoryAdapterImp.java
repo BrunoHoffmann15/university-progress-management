@@ -4,27 +4,28 @@ import com.personal.university.progressmanagement.domain.course.Course;
 import com.personal.university.progressmanagement.domain.course.CourseRepositoryAdapter;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 @Service
 public class CourseRepositoryAdapterImp implements CourseRepositoryAdapter {
 
-    private Long id = 0l;
-    private static List<Course> courseList;
+    public Long id = 0l;
+    private static Map<Long, Course> courseList = new HashMap<>();
 
     @Override
     public Long addCourse(Course course) {
         id ++;
 
         course.setId(id);
-        courseList.add(course);
+        courseList.put(id, course);
 
         return id;
     }
 
     @Override
     public Course getCourse(Long id) {
-        return null;
+        return courseList.get(id);
     }
 
     @Override
