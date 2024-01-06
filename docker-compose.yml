@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "RandomPassword!@#$"
+    ports:
+      - "5432:5432"
+
+  university-progress-management:
+    build:
+      context: .
+      dockerfile: Dockerfile
